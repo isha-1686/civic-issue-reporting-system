@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Dimensions, Alert, RefreshControl, Modal, TextInput, Image } from 'react-native';
-import { Filter, MapPin, TrendingUp, Calendar, BarChart3, Layers, Navigation, Menu, User, Bell, Search, X, Send, MessageSquare, Eye, ThumbsUp, Clock, Star } from 'lucide-react-native';
+import { Filter, MapPin, TrendingUp, Calendar, ChartBar as BarChart3, Layers, Navigation, Menu, User, Bell, Search, X, Send, MessageSquare, Eye, ThumbsUp, Clock, Star } from 'lucide-react-native';
 import { getUserIssues, getCurrentUser, getUserProfile, createFeedback, getUserFeedback } from '../../lib/supabase';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useTranslation } from 'react-i18next';
